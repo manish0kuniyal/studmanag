@@ -4,7 +4,7 @@ om langchain_community.agent_toolkits import create_sql_agent
 from langchain_openai import ChatOpenAI
 
 
-df = pd.read_csv("titanic.csv")
+df = pd.read_csv("salaries.csv")
 print(df.shape)
 print(df.columns.tolist())
 
