@@ -1,7 +1,10 @@
-import React from 'react'
-
-export default function App() {
-  return (
-    <div className='border-2'>App</div>
+import { Button } from "@/components/ui/button"
+import { TableDemo } from "./StudentTable"
+export default function Home() {
+  return (<>
+    <div>
+      <TableDemo/>
+    </div>
+    </>
   )
 }
