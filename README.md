@@ -1,1 +1,4 @@
-. On desktop screens, it will show the data in a paginated table with 10 students per page, including details like name, age, marks, roll number, class, city, and attendance. On mobile screens, the table will be replaced by individual cards that only show essential student information—name, age, marks, and roll number. The mobile view should have infinite scrolling, loading more students as the user scrolls down, while the desktop view will allow users to navigate through pages of data. 
+# TODO
+- On desktop screens, the data will be displayed in a table format with 10 students per page, showing details like name, age, marks, roll number, class, city, and attendance(switch & delay). 
+- On small screens, the table will switch to individual cards that show only the most important information—name, age, marks, and roll number(infi scroll & delay).
+- data from json file -> getStudents -> <component/>
